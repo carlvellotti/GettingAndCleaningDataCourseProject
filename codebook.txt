@@ -1,0 +1,16 @@
+Code Book
+---------
+Names of variables:
+1) ytest - contains data from the y_test.txt file
+2) ytrain - contains data from the y_train.txt file
+3) train - ytrain cbinded to data from the X_test.txt file
+4) test - ytest cbinded to data from the X_train.txt file
+5) features - contains data from the features.txt file
+6) allTheData - merged data from train and test
+7) names - column names (from features)
+8) goodRows - Rows containing the desired activity for that loop
+9) sum - sum of the data from the desired activity for that loop
+10) means - means of the data from the desired activity for that loop
+
+Units of data:
+- The data has been scaled by dividing by the range, and when units are divided by the same units, the units are cancelled. A ratio is left.
